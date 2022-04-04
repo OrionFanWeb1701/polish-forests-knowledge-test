@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Łukasz Romanek">
+    <title>Test wiedzy o polskich lasach</title>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/css/style.min.css">
+    <script src="https://kit.fontawesome.com/b29ba5ca35.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="hero-shadow"></div>
+    <div class="count-time-box start-animation">
+        <p class="count-time-box__text">3:00</p>
+    </div>
+    <div class="wrapper wrapper-welcome start-animation">
+        <header class="header">
+            <i class="fa-solid fa-tree"></i>
+            <h1 class="header__title">test wiedzy o polskich lasach</h1>
+        </header>
+        <div class="quiz">
+            <p class="quiz__info">
+                Sprawdź swoję widzę na temat polskiego leśnictwa. Test zawiera 10 pytań i na rozwiązanie masz 3 min.
+                Poprawna może być tylko jedna odpowiedź. Powodzenia!</p>
+            <i class="fa-solid fa-face-smile"></i>
+        </div>
+        <div class="btns-box">
+            <button class="action-btn start-btn">Rozpocznij</button>
+        </div>
+    </div>
+    <div class="wrapper wrapper-question1">
+        <header class="header">
+            <i class="fa-solid fa-tree"></i>
+            <h2 class="header__title">Pytanie 1/10</h2>
+        </header>
+        <div class="quiz">
+            <div class="question">
+                <div class="question__box">
+                    <p class="question__box-title">Jaką powierzchnię Polski zajmują lasy?</p>
+                </div>
+                <div class="question__input-boxes">
+                    <div class="question__input-box">
+                        <input type="radio" name="q1" class="inputQ1" id="ip1"><label for="ip1"
+                            class="question__label">29%</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q1" class="inputQ1" id="ip2"><label for="ip2" class="
+                            question__label">72%</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q1" class="inputQ1" id="ip3"><label for="ip3" class="
+                            question__label">37%</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q1" class="inputQ1" id="ip4"><label for="ip4" class="
+                            question__label">49%</label>
+                    </div>
+                </div>
+                <div class="question__error">
+                    <p class="question__error-text"></p>
+                </div>
+            </div>
+        </div>
+        <div class="btns-box">
+            <button class="action-btn">Dalej</button>
+        </div>
+    </div>
+    <div class="wrapper wrapper-question2">
+        <header class="header">
+            <i class="fa-solid fa-tree"></i>
+            <h2 class="header__title">Pytanie 2/10</h2>
+        </header>
+        <div class="quiz">
+            <div class="question">
+                <div class="question__box">
+                    <p class="question__box-title">Jaki gatunek drzewa dominuje w Polsce?</p>
+                </div>
+                <div class="question__input-boxes">
+                    <div class="question__input-box">
+                        <input type="radio" name="q2" class="inputQ2" id="ip5"><label for="ip5"
+                            class="question__label">Świerk
+                            pospolity</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q2" class="inputQ2" id="ip6"><label for="ip6"
+                            class="question__label">Dąb
+                            szypułkowy</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q2" class="inputQ2" id="ip7"><label for="ip7"
+                            class="question__label">Jesion
+                            wyniosły</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q2" class="inputQ2" id="ip8"><label for="ip8"
+                            class="question__label">Sosna
+                            zwyczajna</label>
+                    </div>
+                </div>
+                <div class="question__error">
+                    <p class="question__error-text"></p>
+                </div>
+            </div>
+        </div>
+        <div class="btns-box">
+            <button class="action-btn">Dalej</button>
+        </div>
+    </div>
+    <div class="wrapper wrapper-question3">
+        <header class="header">
+            <i class="fa-solid fa-tree"></i>
+            <h2 class="header__title">Pytanie 3/10</h2>
+        </header>
+        <div class="quiz">
+            <div class="question">
+                <div class="question__box">
+                    <p class="question__box-title">Drzewo o największej wartości opałowej to...</p>
+                </div>
+                <div class="question__input-boxes">
+                    <div class="question__input-box">
+                        <input type="radio" name="q3" class="inputQ3" id="ip9"><label for="ip9"
+                            class="question__label">Buk
+                            zwyczajny</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q3" class="inputQ3" id="ip10"><label for="ip10"
+                            class="question__label">Lipa
+                            drobnolistna</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q3" class="inputQ3" id="ip11"><label for="ip11"
+                            class="question__label">Grab
+                            pospolity</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q3" class="inputQ3" id="ip12"><label for="ip12"
+                            class="question__label">Dąb
+                            bezszypułkowy</label>
+                    </div>
+                </div>
+                <div class="question__error">
+                    <p class="question__error-text"></p>
+                </div>
+            </div>
+        </div>
+        <div class="btns-box">
+            <button class="action-btn">Dalej</button>
+        </div>
+    </div>
+    <div class="wrapper wrapper-question4">
+        <header class="header">
+            <i class="fa-solid fa-tree"></i>
+            <h2 class="header__title">Pytanie 4/10</h2>
+        </header>
+        <div class="quiz">
+            <div class="question">
+                <div class="question__box">
+                    <p class="question__box-title">Kornik drukarz to szkodnik...</p>
+                </div>
+                <div class="question__input-boxes">
+                    <div class="question__input-box">
+                        <input type="radio" name="q4" class="inputQ4" id="ip13"><label for="ip13"
+                            class="question__label">Pierwotny</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q4" class="inputQ4" id="ip14"><label for="ip14"
+                            class="question__label">Wtórny</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q4" class="inputQ4" id="ip15"><label for="ip15"
+                            class="question__label">Techniczny</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q4" class="inputQ4" id="ip16"><label for="ip16"
+                            class="question__label">Nieinwazyjny</label>
+                    </div>
+                </div>
+                <div class="question__error">
+                    <p class="question__error-text"></p>
+                </div>
+            </div>
+        </div>
+        <div class="btns-box">
+            <button class="action-btn">Dalej</button>
+        </div>
+    </div>
+    <div class="wrapper wrapper-question5">
+        <header class="header">
+            <i class="fa-solid fa-tree"></i>
+            <h2 class="header__title">Pytanie 5/10</h2>
+        </header>
+        <div class="quiz">
+            <div class="question">
+                <div class="question__box">
+                    <p class="question__box-title">Największy Park Narodowy w Polsce to...</p>
+                </div>
+                <div class="question__input-boxes">
+                    <div class="question__input-box">
+                        <input type="radio" name="q5" class="inputQ5" id="ip17"><label for="ip17"
+                            class="question__label">Wigierski
+                            PN</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q5" class="inputQ5" id="ip18"><label for="ip18"
+                            class="question__label">Świętokrzyski
+                            PN</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q5" class="inputQ5" id="ip19"><label for="ip19"
+                            class="question__label">Poleski PN</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q5" class="inputQ5" id="ip20"><label for="ip20"
+                            class="question__label">Biebrzański
+                            PN</label>
+                    </div>
+                </div>
+                <div class="question__error">
+                    <p class="question__error-text"></p>
+                </div>
+            </div>
+        </div>
+        <div class="btns-box">
+            <button class="action-btn">Dalej</button>
+        </div>
+    </div>
+    <div class="wrapper wrapper-question6">
+        <header class="header">
+            <i class="fa-solid fa-tree"></i>
+            <h2 class="header__title">Pytanie 6/10</h2>
+        </header>
+        <div class="quiz">
+            <div class="question">
+                <div class="question__box">
+                    <p class="question__box-title">Czym jest potocznie "papierówka"?</p>
+                </div>
+                <div class="question__input-boxes">
+                    <div class="question__input-box">
+                        <input type="radio" name="q6" class="inputQ6" id="ip21"><label for="ip21"
+                            class="question__label">Plan urządzenia
+                            lasu</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q6" class="inputQ6" id="ip22"><label for="ip22"
+                            class="question__label">Drewno klasy
+                            S2A</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q6" class="inputQ6" id="ip23"><label for="ip23"
+                            class="question__label">Drewno klasy
+                            WC</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q6" class="inputQ6" id="ip24"><label for="ip24"
+                            class="question__label">Brudnica
+                            mniszka</label>
+                    </div>
+                </div>
+                <div class="question__error">
+                    <p class="question__error-text"></p>
+                </div>
+            </div>
+        </div>
+        <div class="btns-box">
+            <button class="action-btn">Dalej</button>
+        </div>
+    </div>
+    <div class="wrapper wrapper-question7">
+        <header class="header">
+            <i class="fa-solid fa-tree"></i>
+            <h2 class="header__title">Pytanie 7/10</h2>
+        </header>
+        <div class="quiz">
+            <div class="question">
+                <div class="question__box">
+                    <p class="question__box-title">Na podstawie jakich kryteriów określamy typ siedliskowy lasu?</p>
+                </div>
+                <div class="question__input-boxes">
+                    <div class="question__input-box">
+                        <input type="radio" name="q7" class="inputQ7" id="ip25"><label for="ip25"
+                            class="question__label">Typie gleby</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q7" class="inputQ7" id="ip26"><label for="ip26"
+                            class="question__label">Poziomie wody
+                            grunt.</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q7" class="inputQ7" id="ip27"><label for="ip27"
+                            class="question__label">Postaci
+                            próchnicy</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q7" class="inputQ7" id="ip28"><label for="ip28"
+                            class="question__label">Wszystkich
+                            wyżej</label>
+                    </div>
+                </div>
+                <div class="question__error">
+                    <p class="question__error-text"></p>
+                </div>
+            </div>
+        </div>
+        <div class="btns-box">
+            <button class="action-btn">Dalej</button>
+        </div>
+    </div>
+    <div class="wrapper wrapper-question8">
+        <header class="header">
+            <i class="fa-solid fa-tree"></i>
+            <h2 class="header__title">Pytanie 8/10</h2>
+        </header>
+        <div class="quiz">
+            <div class="question">
+                <div class="question__box">
+                    <p class="question__box-title">Jaką literą oznaczane są drzewa ekologiczne?</p>
+                </div>
+                <div class="question__input-boxes">
+                    <div class="question__input-box">
+                        <input type="radio" name="q8" class="inputQ8" id="ip29"><label for="ip29"
+                            class="question__label">P</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q8" class="inputQ8" id="ip30"><label for="ip30"
+                            class="question__label">O</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q8" class="inputQ8" id="ip31"><label for="ip31"
+                            class="question__label">Z</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q8" class="inputQ8" id="ip32"><label for="ip32"
+                            class="question__label">Żadną z
+                            powyższych</label>
+                    </div>
+                </div>
+                <div class="question__error">
+                    <p class="question__error-text"></p>
+                </div>
+            </div>
+        </div>
+        <div class="btns-box">
+            <button class="action-btn">Dalej</button>
+        </div>
+    </div>
+    <div class="wrapper wrapper-question9">
+        <header class="header">
+            <i class="fa-solid fa-tree"></i>
+            <h2 class="header__title">Pytanie 9/10</h2>
+        </header>
+        <div class="quiz">
+            <div class="question">
+                <div class="question__box">
+                    <p class="question__box-title">Jakie odnowienia są najbardziej korzystane dla gospodarki leśnej?</p>
+                </div>
+                <div class="question__input-boxes">
+                    <div class="question__input-box">
+                        <input type="radio" name="q9" class="inputQ9" id="ip33"><label for="ip33"
+                            class="question__label">Sztuczne</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q9" class="inputQ9" id="ip34"><label for="ip34"
+                            class="question__label">Nie ma
+                            znaczenia</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q9" class="inputQ9" id="ip35"><label for="ip35"
+                            class="question__label">Naturalne</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q9" class="inputQ9" id="ip36"><label for="ip36"
+                            class="question__label">Mieszane</label>
+                    </div>
+                </div>
+                <div class="question__error">
+                    <p class="question__error-text"></p>
+                </div>
+            </div>
+        </div>
+        <div class="btns-box">
+            <button class="action-btn">Dalej</button>
+        </div>
+    </div>
+    <div class="wrapper wrapper-question10">
+        <header class="header">
+            <i class="fa-solid fa-tree"></i>
+            <h2 class="header__title">Pytanie 10/10</h2>
+        </header>
+        <div class="quiz">
+            <div class="question">
+                <div class="question__box">
+                    <p class="question__box-title">Co to jest pierśnica?</p>
+                </div>
+                <div class="question__input-boxes">
+                    <div class="question__input-box">
+                        <input type="radio" name="q10" class="inputQ10" id="ip37"><label for="ip37"
+                            class="question__label">Obwód
+                            dłużycy</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q10" class="inputQ10" id="ip38"><label for="ip38"
+                            class="question__label">Średnica
+                            drzewa</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q10" class="inputQ10" id="ip39"><label for="ip39"
+                            class="question__label">Szkodnik
+                            wtórny</label>
+                    </div>
+                    <div class="question__input-box">
+                        <input type="radio" name="q10" class="inputQ10" id="ip40"><label for="ip40"
+                            class="question__label">Wada
+                            drewna</label>
+                    </div>
+                </div>
+                <div class="question__error">
+                    <p class="question__error-text"></p>
+                </div>
+            </div>
+        </div>
+        <div class="btns-box">
+            <button class="action-btn score-btn">Wynik</button>
+        </div>
+    </div>
+    <div class="wrapper wrapper-score">
+        <header class="header">
+            <i class="fa-solid fa-tree"></i>
+            <h2 class="header__title">Wynik</h2>
+        </header>
+        <div class="quiz">
+            <p class="quiz__score-info"><span class="count"></span>/10</p>
+            <p class="quiz__show-count-info"></p>
+        </div>
+        <div class="btns-box">
+            <button class="action-btn repeat-btn">powtórz quiz</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p class="copyright">&copy; 2022 Łukasz Romanek - Wszelkie prawa zastrzeżone</p>
+        <a href="https://github.com/OrionFanWeb1701/polish-forests-knowledge-test" target="_blank" class="git-link"><i
+                class="fa-brands fa-github"></i></a>
+    </footer>
+
+    <script src="./dist/js/script.min.js"></script>
+</body>
+
+</html>
