@@ -90,7 +90,7 @@ const main = () => {
 			wrapperAll[2].classList.add('start-animation')
 		} else {
 			questionError[0].style.display = 'block'
-			questionError[0].textContent = 'Zaznacz odpowowiedź!'
+			questionError[0].textContent = 'Zaznacz odpowiedź!'
 		}
 	}
 
@@ -108,7 +108,7 @@ const main = () => {
 			wrapperAll[3].classList.add('start-animation')
 		} else {
 			questionError[1].style.display = 'block'
-			questionError[1].textContent = 'Zaznacz odpowowiedź!'
+			questionError[1].textContent = 'Zaznacz odpowiedź!'
 		}
 	}
 
@@ -125,7 +125,7 @@ const main = () => {
 			wrapperAll[4].classList.add('start-animation')
 		} else {
 			questionError[2].style.display = 'block'
-			questionError[2].textContent = 'Zaznacz odpowowiedź!'
+			questionError[2].textContent = 'Zaznacz odpowiedź!'
 		}
 	}
 
@@ -143,7 +143,7 @@ const main = () => {
 			wrapperAll[5].classList.add('start-animation')
 		} else {
 			questionError[3].style.display = 'block'
-			questionError[3].textContent = 'Zaznacz odpowowiedź!'
+			questionError[3].textContent = 'Zaznacz odpowiedź!'
 		}
 	}
 
@@ -161,7 +161,7 @@ const main = () => {
 			wrapperAll[6].classList.add('start-animation')
 		} else {
 			questionError[4].style.display = 'block'
-			questionError[4].textContent = 'Zaznacz odpowowiedź!'
+			questionError[4].textContent = 'Zaznacz odpowiedź!'
 		}
 	}
 
@@ -179,7 +179,7 @@ const main = () => {
 			wrapperAll[7].classList.add('start-animation')
 		} else {
 			questionError[5].style.display = 'block'
-			questionError[5].textContent = 'Zaznacz odpowowiedź!'
+			questionError[5].textContent = 'Zaznacz odpowiedź!'
 		}
 	}
 
@@ -197,7 +197,7 @@ const main = () => {
 			wrapperAll[8].classList.add('start-animation')
 		} else {
 			questionError[6].style.display = 'block'
-			questionError[6].textContent = 'Zaznacz odpowowiedź!'
+			questionError[6].textContent = 'Zaznacz odpowiedź!'
 		}
 	}
 
@@ -215,7 +215,7 @@ const main = () => {
 			wrapperAll[9].classList.add('start-animation')
 		} else {
 			questionError[7].style.display = 'block'
-			questionError[7].textContent = 'Zaznacz odpowowiedź!'
+			questionError[7].textContent = 'Zaznacz odpowiedź!'
 		}
 	}
 
@@ -233,7 +233,7 @@ const main = () => {
 			wrapperAll[10].classList.add('start-animation')
 		} else {
 			questionError[8].style.display = 'block'
-			questionError[8].textContent = 'Zaznacz odpowowiedź!'
+			questionError[8].textContent = 'Zaznacz odpowiedź!'
 		}
 	}
 
@@ -251,7 +251,7 @@ const main = () => {
 			showScore()
 		} else {
 			questionError[9].style.display = 'block'
-			questionError[9].textContent = 'Zaznacz odpowowiedź!'
+			questionError[9].textContent = 'Zaznacz odpowiedź!'
 		}
 	}
 
