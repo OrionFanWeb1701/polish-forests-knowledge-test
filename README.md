@@ -1,4 +1,4 @@
-<b>Polish forests knowledge test</b>
+#Polish forests knowledge test
 
 :deciduous_tree: :evergreen_tree: :herb:
 
